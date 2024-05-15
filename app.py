@@ -305,7 +305,7 @@ def getNBA():
         result =  result + ' 主隊 : ' + str(game['homeTeam']['teamTricode'])+ '\n'
         result =  result + ' 分數 : ' + str(game['homeTeam']['score'])+ '\n'
         result =  result + ' 客隊 : ' + str(game['awayTeam']['teamTricode'])+ '\n'
-        result =  result + ' 分數 : ' + str(game['awayTeam']['score'])
+        result =  result + ' 分數 : ' + str(game['awayTeam']['score']) + '\n\n'
     return result
 
 if __name__ == '__main__':
